@@ -10,7 +10,7 @@ public class Person {
 	}
 
 	public void setGender(String gender) {
-		this._gender = _gender;
+		this._gender = gender;
 	}
 
 	public String getName() {

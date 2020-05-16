@@ -21,13 +21,18 @@ public class Person {
 		this._name = name;
 	}
 	
+	//READ ONLY access modifier for this._age
+	public int getAge(){
+		
+		return this._age;
+	}
 	//CONSTRUCTOR++++++++++++++++++++++++++++++++++++++++++
 		public Person(int age) {
 			this._age = age;
 		}
 	//PUBLIC METHODS+++++++++++++++++++++++++++++++++++
 	public void runs() {
-		System.out.printf("%s Runs", this._name);
+		System.out.printf("%s Runs \n", this.getName());
 	}
 	
 }

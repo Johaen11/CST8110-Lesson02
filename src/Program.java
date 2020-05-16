@@ -7,12 +7,13 @@ public class Program {
 		person = new Person(29);
        
 		person.setName("Niro");
+		person.setGender("Male");
 		
 		System.out.println(person.getName());
 		
 		person.runs();
 		
-		
+		System.out.printf("%s is %d years old", person.getName(), person.getAge());
 	}
 
 }
